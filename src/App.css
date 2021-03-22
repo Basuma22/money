@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: wheat;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.confirmed-card,
+.death-card,
+.recovered-card {
+  height: 150px;
+  width: 300px;
+  border-radius: 75px 75px 0 0;
+  margin: 10px;
+  box-shadow: 0 6px 7px 3px gray;
+  
+}
+
+.confirmed-card {
+  background-color: cyan;
+}
+.death-card {
+  background-color: red;
+  color: white;
+}
+.recovered-card {
+  background-color: royalblue;
+  color: white;
+}
+.title {
+  border-bottom: 2px solid white;
+}
+select {
+  height: 40px;
+  border: none;
+  margin: 30px;
+  padding: 7px 10px;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: lightgreen;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid red;
+}
